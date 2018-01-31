@@ -1,4 +1,3 @@
-style.css
 body {
   padding: 0;
   margin: 0;
@@ -6,52 +5,181 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #333;
-  background: #efeee7;
-}
+  /*background:lightgray;*/
+  background-image: url('../Images/fresh_snow/fresh_snow.png');
+  }
 
 header {
-  background: #333;
+  background: white;
+  overflow:auto;
+}
+
+body {margin:0;}
+
+.topnav {
+ overflow: hidden;
+ /*background-color: gray;
+*/
+}
+
+.topnav a {
+ float: right;
+ color: black;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+
+.topnav a:hover {
+ background-color: white;
+ color: black;
+ 
+}
+
+.topnav a.active {
+ background-color: gray;
+ color: gray;
+
+}
+section {
+  padding:10px;
+}
+
+#contact-info a{
+  padding:10px;
+
 }
 
 h1 {
   padding: 20px 0;
   margin: 0;
-  margin-bottom: 20px;
+ /* margin-bottom: 20px;*/
+  margin-left: 70px;
   font-size: 28px;
   color: #eee;
   text-align: center;
+  width: 35%;
+  background-color: teal;
+  float:left;
 }
 
 h2 {
   font-size: 24px;
+  color:teal;
+  padding:10px;
+  border-bottom: 2px solid gray; 
 }
 
 a {
   color: #d21034;
+
 }
 
 .container {
-  width: 1024px;
+  width: 650px;
   margin: 0 auto;
 }
 
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
-}
 
 #main-bio {
-  width: 70%;
+  width: 65%;
+  background:white;
+  float: left;
+  margin-bottom:40px;
+
 }
 
 #contact-info {
   width: 30%;
+  background:#eee;
+  float:right;
+  text-align:center;
+}
+
+#linkedin
+#github
+#portfolio {
+  float:left;
+
+}
+
+.container2{
+  float:left;
+  width:65%;
+  color:lightgray;
 }
 
 #bio-image {
   width: 200px;
   height: 200px;
   margin-right: 20px;
-	
+  float: left;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container2 {
+    border-radius: 5px;
+    background-color:lightgray;
+    padding: 20px;
+
+}
+
+footer {
+  padding:45px;
+  clear: both;
+  text-align: center;
+  background-color: gray;
+}
+  
+.container {
+  width: 960px;
+  margin: 20px auto;
+  clear:both;
+
+}
+
+/*<!--Portfolio page-images-->*/ 
+/*#images{
+  padding:20px;
+}*/
+
+.ipad{
+  margin:10px;
+}
+.dj{
+  margin:10px;
+}
+.headphones{
+  margin:10px;
+}
+.ipod{
+  margin:10px;
+}
+.tv{
+  margin:10px;
 }
